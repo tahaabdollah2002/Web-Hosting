@@ -1,0 +1,171 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+@media only screen and (max-width:992px){
+    nav{
+        padding-top: 35px;
+    }
+    .menu-icon{
+        display: block !important;
+    }
+    .main-menu{
+        display: block;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: -250px;
+        background-color: #7381c3;
+        width: 250px;
+        -webkit-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+    }
+    .menu-item{
+        margin: 25px 15px !important;
+        padding: 5px 0 !important;
+    }
+    .menu-item.active{
+        background-color: transparent !important;
+    }
+    .login-btn{
+        display: block;
+        text-align: center;
+    }
+    .header-domains{
+        margin-right: 0;
+    }
+    .header-btn{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .services-img{
+        -webkit-box-ordinal-group: 1;
+            -ms-flex-order: 0;
+                order: 0;
+    }
+    .services-items{
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
+        margin-top: 50px;
+    }
+    .service{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .box-2{
+        margin-top: 50px;
+    }
+}
+@media only screen and (min-width:992px){
+    .box-container-1{
+        padding-right: 45px;
+    }
+    .box-container-2{
+        padding-left: 45px;
+    }
+}
+@media only screen and (max-width:768px){
+    .content{
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
+    }
+    .img{
+        -webkit-box-ordinal-group: 1;
+            -ms-flex-order: 0;
+                order: 0;
+    }
+    .header-input{
+        max-width: 100%;
+    }
+    .header-content{
+        margin-top: 0;
+    }
+    .header-title{
+        font-size: 30px;
+        margin-top: 0;
+    }
+    .header-caption{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .header-btn{
+        margin-top: 15px;
+    }
+    .plan-bottom{
+        height: 250px;
+    }
+    .plan-top{
+        border-top: 11px solid var(--light-blue);
+    }
+    .comments-img{
+        width: 145px !important;
+    }
+    .comment-person-img{
+        width: 52px !important;
+        height: 52px !important;
+    }
+    .comments-img1{
+        top: -35px;
+        right: 0;
+    }
+    .comments-img2{
+        bottom: -35px;
+        left: 0;
+    }
+    .owl-prev span,.owl-next span{
+        font-size: 28px !important;
+        width: 32px !important;
+        height: 32px !important;
+    }
+    .owl-next{
+        right: -5px;
+    }
+    .owl-prev{
+        left: -5px;
+    }
+}
+@media only screen and (max-width:576px){
+    .header-title{
+        font-size: 25px;
+    }
+    .service-content h3{
+        font-size: 16px;
+    }
+    .service-content p{
+        font-size: 14px;
+    }
+    .section-title{
+        font-size: 24px;
+    }
+    .section-caption{
+        font-size: 18px;
+    }
+    .start-img-fixed{
+        max-width: 170px;
+    }
+    .comment{
+        text-align: center;
+    }
+    .comment-person-img{
+        margin: 15px auto;
+    }
+    .footer-bottom{
+        -webkit-box-pack: center !important;
+            -ms-flex-pack: center !important;
+                justify-content: center !important;
+        text-align: center;
+    }
+    .social{
+        margin-top: 30px;
+        -webkit-box-pack: center !important;
+            -ms-flex-pack: center !important;
+                justify-content: center !important;
+    }
+}

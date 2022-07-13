@@ -1,0 +1,14 @@
+extra small => xs => size<576px
+
+small => sm => 768px
+
+large => lg => 992px
+
+extra large => xl => 1200px
+
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
